@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    color: #50658E;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: #50658E;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    color: #3D4B69;
+}
+
+button {
+    background-color: #2A81EA;
+    padding: 10px 25px;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 60px;
+}
+
+.size {
+    transition: 0.7s;
+}
+
+.size:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.outer {
+    width: 80%;
+    margin: auto;
+}
+
+.start {
+    color: #2A81EA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.up {
+    color: #2A81EA;
+}
+
+.container-fluid {
+    background-color: #F7F9FE;
+}
+
+.paragraph {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 17px;
+    color: #3D4B69;
+}
+
+.intro_paragraph {
+    font-size: 20px;
+}
+
+.scroll-btn a {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: white;
+    background-color: #2A81EA;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    padding-top: 13px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-color {
+    background-color: white !important;
+    height: 70px !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: 0.5s;
+    height: 100px;
+    background-color: transparent;
+}
+
+.navbar .container {
+    width: 80%;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li .active {
+    color: #4587ec !important;
+}
+
+.navbar li :hover {
+    color: #4587ec !important;
+}
+
+.navbar-brand img {
+    height: 27px;
+    width: 27px;
+    margin-bottom: 9px;
+}
+
+.navbar-brand .logo {
+    color: #21385e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-brand .number {
+    color: #50658e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first {
+    background-image: url(../../imgs/shape-a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.under-nav h1 {
+    font-size: 110px;
+    color: #50658E;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+
+}
+
+.under-nav .covid {
+    font-size: 40px;
+    color: #F86168;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: -8px;
+    margin-top: 16px;
+    margin-left: -25px;
+}
+
+.under-nav .virus {
+    font-size: 60px;
+    color: #50658E;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    margin-left: -25px;
+    margin-top: 4px;
+}
+
+.under-nav .active {
+    background-color: #3783ea;
+    border-radius: 80px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.under-nav .active :hover {
+    background-color: white;
+    color: #3783ea;
+
+}
+
+.under-nav a {
+
+    text-decoration: none;
+}
+
+.under-nav .count {
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #3c5073;
+}
+
+.under-nav .stats {
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #3c5073b6;
+}
+
+.under-nav em {
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #3c50737d;
+}
+
+
+
+.under-nav img {
+    width: 640px;
+    height: 550px;
+    transition: 0.7s;
+
+}
+
+.under-nav img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+.about-disease .title {
+    color: #3783ea;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-disease span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3D4B69;
+}
+
+.about-disease a {
+    color: #5db7f4 !important;
+    text-decoration: none;
+}
+
+.about-disease .active {
+    color: #383f69;
+    font-size: 20px;
+    font-weight: bold;
+    border: #859fc3;
+
+}
+
+.about-disease li {
+    padding: 20px;
+}
+
+.about-disease .right:hover a {
+    color: white !important;
+}
+
+
+.about-disease .right:hover {
+    background-color: #056CC4 !important;
+    color: white !important;
+}
+
+.about-disease .list-group {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.about-disease .list-group .right::after {
+    /* removed font- based rules */
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    /* using style CSS custom property */
+    font: var(--fa-font-solid);
+    content: "\f178";
+    position: absolute;
+    right: 4%;
+    color: #5DB7F4;
+}
+
+
+.card-img-top {
+    border-bottom: 7px #9CC2F7 solid;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    height: 190px;
+}
+
+.begin {
+    margin-bottom: 90px;
+}
+
+.begin p {
+    width: 60%;
+    margin: auto;
+}
+
+.symp {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.symptoms {
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: -45%;
+    transform: translate(50%, 50%);
+}
+
+.boxing {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 10px 0px;
+    margin: 0px 17px;
+    border-radius: 10px;
+}
+
+.note {
+    color: #7FB3F2;
+}
+
+.protection {
+    width: 70%;
+}
+
+.protection img {
+    height: 120px;
+    width: 120px;
+    border-radius: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+
+.protection .text {
+    width: 65%;
+    margin: auto;
+}
+
+.protection strong {
+    margin-bottom: 10px;
+    color: #3D4B69;
+}
+
+.steps {
+    width: 75%;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+
+
+.steps .col-4 img {
+    width: 320px;
+    height: 450px;
+}
+
+.steps a {
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.wash {
+    width: 75%;
+}
+
+.wash img {
+    width: 120px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.hand {
+    transition: 0.4s;
+}
+
+.hand:hover {
+    transform: scale(1.1);
+}
+
+.careful {
+    background-color: #2766BB;
+    background-image: url(../../imgs/shape-a.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+.treatment p {
+    color: white;
+    font-size: 15px;
+}
+
+.treatment span {
+    color: white;
+
+}
+
+.treatment .words {
+    color: #AEBEF4;
+
+}
+
+.treatment h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.treatment .start {
+    color: #73E3FF;
+}
+
+.treatment .up {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.treatment .row {
+    padding: 100px 0px;
+}
+
+.treatment .self-care {
+    background-color: #1B47A1;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+}
+
+.protect .row:first-child {
+    width: 80%;
+    margin: auto;
+}
+
+.do-dont {
+    padding: 100px 0px;
+}
+
+.dont-and-do .bordered {
+    border: dashed 1px#7FB3F2;
+}
+
+.dont-and-do p {
+    font-size: 11px;
+    font-weight: bold;
+    color: #2A81EA;
+}
+
+
+
+.dont-and-do .advices img {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border: 3px solid #2A81EA;
+    border-radius: 90px;
+}
+
+
+.dont-and-do .dont-advice .cross::after {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    /* using style CSS custom property */
+    font: var(--fa-font-solid);
+    color: #F86168;
+    content: '\f057';
+    position: absolute;
+    left: 20%;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+
+.dont-and-do .do-advice .check::after {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    /* using style CSS custom property */
+    font: var(--fa-font-solid);
+    color: #3DCA93;
+    content: '\f058';
+    position: relative;
+    right: 73px;
+    top: -30px;
+    transform: translate(50px);
+    font-size: 22px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.dont-and-do .protect img {
+    height: 450px;
+    width: 550px;
+    margin-left: -90px;
+    margin-top: 150px;
+}
+
+.dont {
+    border: firebrick 10px solid;
+}
+
+.acc {
+    width: 75%;
+}
+
+.acc .list-group-item {
+    border: #E7E8FF solid 2px !important;
+    border-radius: 7px;
+    padding: 12px 12px;
+    width: 350px;
+    transition: 0.3s;
+    font-weight: lighter;
+    color: #77658E;
+    background-color: white;
+}
+
+.acc .icon::after {
+    /* removed font- based rules */
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    /* using style CSS custom property */
+    font: var(--fa-font-solid);
+    content: "\f0da";
+    position: absolute;
+    right: 4%;
+    color: #5DB7F4;
+}
+
+.acc .list-group .active {
+    background-color: white;
+    color: #3E93ED;
+    border: #3E93ED solid 2px !important;
+}
+
+.acc .list-group-item:hover {
+    background-color: white;
+    color: #3E93ED;
+    border: #3E93ED solid 2px !important;
+}
+
+.acc .accordion button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7FAFE !important;
+    color: #465675;
+    transition: 0.5s;
+
+    padding: 20px 10px;
+}
+
+.acc .accordion button:hover {
+    color: #3E93ED;
+}
+
+.acc .accordion .accordion-header [aria-expanded="true"] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white !important;
+    color: #3E93ED;
+}
+
+.news .card img {
+    height: 180px;
+    width: 310px;
+    margin-top: 20px;
+    border-radius: 5PX;
+}
+
+.news .size {
+    transition: 0.7s;
+}
+
+.news .size:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.footer {
+    background-color: #151C2E;
+    background-image: url(../../imgs/shape-a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer p {
+    color: #B2BFE0;
+    font-size: 14px;
+}
+
+.footer .upper {
+    border-bottom: #2C3243 solid 1px;
+}
+
+.footer .upper h3 {
+    color: white;
+}
+
+.footer .upper span {
+    color: #B2BEDB;
+    font-size: 30px;
+}
+
+.footer .upper .logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer .upper .social-media {
+    margin-bottom: 70px;
+}
+
+.footer .upper .social-media a {
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer .upper .facebook a {
+    background-color: #0572E7;
+
+}
+
+.footer .upper .twitter a {
+    background-color: #1DA1F2;
+    padding: 10px 70px;
+}
+
+.footer .upper .instagram a {
+    background-color: #FF016A;
+}
+
+.footer .upper ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.footer .upper ul li {
+    margin-top: 10px;
+}
+
+.footer .upper ul h6 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer .upper ul li a,
+.footer .lower a {
+    color: #B2BFE0;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+.footer .upper ul li a:hover {
+    color: white;
+}

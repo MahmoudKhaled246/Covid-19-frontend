@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+
+    <link rel="shortcut icon" type="x-icon" href="imgs/coronavirus-g2dbff4f62_1920.png">
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Main stylesheet -->
+    <link href="assets/css/final.css" rel="stylesheet">
+    <!--Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+</head>
+
+<body>
+
+    <font></font>
+
+    <!-- start of button to scroll to top  -->
+    <div class="scroll-btn">
+        <a class="rounded-5" onclick="to_up()" id="scroll-btn"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <!-- end of button to scroll to top  -->
+
+    <!-- start of nav bar  -->
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container ">
+            <a class="navbar-brand" href="#"><span class="logo">C</span><img src="imgs/coronavirus-g2dbff4f62_1920.png"
+                    alt="coco"><span class="logo">VID</span><span class="number">19</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home" id="link_1">
+                            <strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#About-Corona" id="link_2"><strong>About Corona</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Symptoms" id="link_3"><strong>Symptoms</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Prevention" id="link_4"><strong>Prevention</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Treatment" id="link_5"><strong>Treatment</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQ" id="link_6"><strong>FAQ</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#News" id="link_7"><strong>News</strong> </a>
+                    </li>
+                    <a href="#Do-&-Dont" class="btn btn-primary rounded-5">Do & Dont</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- end of nav bar  -->
+
+    <!-- start of first landing  -->
+    <div class=" first container-fluid  py-5 " id="Home">
+        <div class="container under-nav mt-5 py-5 mb-4 outer">
+            <div class="row mt-5 ">
+                <div class="nums col-6 ">
+                    <div class="row mt-4">
+                        <div class="col ">
+                            <h1>CORONA</h1>
+                        </div>
+                        <div class="col">
+                            <p class="covid lh-1">COVID-19</p>
+                            <p class="virus lh-1">VIRUS</p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <p>
+                            The Coronavirus (Covid-19) was first reportedin Wuhan, Hubei, China in December 2019,
+                            the
+                            outbreak
+                            was later recognized as a pandemic by the World Health Organization (WHO) on 11 March
+                            2020
+                        </p>
+                    </div>
+
+                    <div class="row mt-5 d-flex align-items-center">
+
+                        <div class="col">
+                            <button>How To Protect <i class="fas fa-shield-halved"></i></button>
+                        </div>
+                        <div class="col">
+                            <a href="#">About Covid-19 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row  mt-5">
+                        <div class="col ">
+                            <p class="stats">WORLDWIDE CASES</p>
+                            <div class="count" id="numbers" data-num="606723067">0</div>
+                        </div>
+                        <div class="col">
+                            <p class="stats">DEATHS</p>
+                            <div class="count" id="numbers" data-num="6507528">0</div>
+                        </div>
+                        <div class="col">
+                            <p class="stats">RECOVERD</p>
+                            <div class="count" id="numbers" data-num="583023017">0</div>
+                        </div>
+                    </div>
+                    <div class="row text-center d-flex justify-content-center align-items-center mt-3"> <em>*Last
+                            Updated:
+                            Aug,
+                            13 ,
+                            2022, 8:21 AM Egypt/Cairo</em></div>
+                </div>
+                <div class="col-6"><img src="imgs/header-a.png" alt="cough"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end of first landing  -->
+
+    <!-- start of about the disease  -->
+    <div class="container outer about-disease my-5 py-5 " id="About-Corona">
+        <div class="row my-5">
+            <div class="col-8">
+                <row>
+                    <p class="start">About The Disease</p>
+                </row>
+                <row>
+                    <h2> Coronavirus (Covid-19)</h2>
+                </row>
+                <row>
+                    <div class="col-10">
+                        <p class="intro_paragraph"><span>Covid-19 is a new illness that can affect your lungs and
+                                airways.</span>It's
+                            caused by a
+                            virus called coronavirus. It was discovered in December 2019 in Wuhan, Hubei, China.</p>
+                        <p>Common signs of infection include respiratory , fever, cough, shortness of breathing
+                            difficulties.In more severe cases, infection can cause pnuemonia, severe acute
+                            respiratory
+                            syndrome, kidney failure and even death.</p>
+                        <p>Standard recommendations to prevent infection spread include regular hand washing,
+                            covering
+                            mouth
+                            and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close
+                            contact
+                            with
+                            anyone showing of respiratory illness such as coughing and sneezing </p>
+                    </div>
+                </row>
+            </div>
+            <div class="col-4">
+                <ul class="list-group">
+                    <li class="list-group-item active bg-light border " aria-current="true">What You Need To
+                        Know
+                    </li>
+                    <li class="right list-group-item"><a href="#reason">How coronavirus is spread </a></li>
+                    <li class="right list-group-item "><a href="#Symptoms">Symptoms of coronavirus</a></li>
+                    <li class="right list-group-item"><a href="#Prevention">How to protect yourself </a></li>
+                    <li class="right list-group-item"><a href="#Treatment">Treatment for coronavirus </a></li>
+                    <li class="right list-group-item"><a href="#FAQ">Myth-Busters of coronavirus </a></li>
+                    <li class="right list-group-item"><a href="#FAQ">Questions & answers </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of about the disease  -->
+
+    <!-- start of HOW CORONAVIRUS IS SPREAD  -->
+    <div class="container-fluid my-5 py-5" id="reason">
+        <div class="container outer mt-5">
+            <div class="row  text-center mb-5">
+                <p class="start">HOW CORONAVIRUS IS SPREAD</p>
+                <h2>TRANSMISSION OF COVID-19
+                </h2>
+                <p class="paragraph">Because it's a new illness, we do not know exactly how coronavirus spreads from
+                    person
+                    to person.
+                    Similar viruses are spread in cough droplets.</p>
+            </div>
+            <div class="row ">
+                <div class="col">
+                    <div class="size card">
+                        <img src="imgs/spread-a.png" class=" card-img-top" alt="dont contact">
+                        <div class="card-body">
+                            <p class="start">Person-to-person spread as close contact with infected</p>
+                            <p>The coronavirus is thought to spread mainly from person to person. This can happen
+                                between people who are in close contact with one another.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="size card">
+                        <img src="imgs/spread-b.png" class="card-img-top" alt="stay at home">
+                        <div class="card-body">
+                            <p class="start">Touching or contact with infected surfaces or objects</p>
+                            <p>A person can get COVID-19 by touching a surface or object that has the virus on it
+                                and
+                                then touching their own mouth, nose, or possibly their eyes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="size card">
+                        <img src="imgs/spread-c.png" class="card-img-top" alt="be away from others">
+                        <div class="card-body">
+                            <p class="start">Droplets that from infected person coughs or sneezes</p>
+                            <p>The coronavirus is thought to spread mainly from person to person. This can
+                                happen
+                                between people who are in close contact with one another.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5 ">
+                <div class="col-4 m-auto">
+                    <button><i class="fa-solid fa-circle-question"></i> Have question about
+                        spreading?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of HOW CORONAVIRUS IS SPREAD  -->
+
+    <!-- start of the symptoms  -->
+    <div class="continer outer my-5 py-5 " id="Symptoms">
+        <div class="row text-center mt-5 ">
+            <p class="start">WHAT ARE THE SYMPTOMS OF COVID-19?</p>
+            <h2>SYMPTOMS OF CORONAVIRUS</h2>
+            <p class="paragraph">The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some
+                patients
+                may have aches
+                and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild
+                and
+                begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+        </div>
+        <div class="row symp mt-5">
+            <div class="col boxing">
+                <div class="row d-flex justify-content-between">
+                    <div class="col">
+                        <p class="up">Fever</p>
+                    </div>
+                    <div class="col"><img class="symptoms" src="imgs/symptom-a.png" alt="fever"></div>
+                    <p><span>High Fever</span> – this means you feel hot to touch on your chest or back (you do not
+                        need
+                        to measure your temperature). It is a common sign and also may appear in 2-10 days if you
+                        affected.</p>
+                </div>
+            </div>
+            <div class="col boxing">
+                <div class="row d-flex justify-content-between">
+                    <div class="col  ">
+                        <p class="up">Cough</p>
+                    </div>
+                    <div class="col"><img class="symptoms" src="imgs/symptom-b.png" alt="cough"></div>
+                    <p><span>Continuous cough</span> – this means coughing a lot for more than an hour, or 3 or more
+                        coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual).</p>
+                </div>
+            </div>
+            <div class="col boxing">
+                <div class="row  d-flex justify-content-between">
+                    <div class="col">
+                        <p class="up">Shortness of breath</p>
+                    </div>
+                    <div class="col"><img class="symptoms" src="imgs/symptom-c.png" alt="shortness"></div>
+                    <p><span>Difficulty breathing </span>– Around 1 out of every 6 people who gets COVID-19 becomes
+                        seriously ill and develops difficulty breathing or shortness of breath.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 pt-5">
+            <div class="col-8 d-flex ">
+                <i class=" note fas fa-triangle-exclamation me-4 fs-1 "></i>
+                <p><span class="up">Stay at home and call your doctor:</span> If you think you have been exposed to
+                    COVID-19 and
+                    develop a fever and any symptoms, such as cough or difficulty breathing, call your healthcare
+                    provider as soon as possible for medical advice.</p>
+            </div>
+            <div class="col-4 text-center"> <button> <i class="fa-solid fa-circle-question me-2"></i>Have
+                    question?
+                    Find
+                    answer.</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of the symptoms  -->
+
+    <!-- start of prevention  -->
+    <div class="container-fluid mt-5 py-5" id="Prevention">
+        <div class="container outer protection mt-5 mb-5 pt-5 pb-5">
+            <div class="row text-center mb-5 ">
+                <p class="start">HOW TO PROTECT YOURSELF?</p>
+                <h2>PREVENTION & ADVICE</h2>
+                <p class="paragraph">There is currently no vaccine to prevent coronavirus disease 2019 (COVID-19).
+                    <span>The best way to
+                        prevent
+                        illness is to avoid being exposed to this virus.</span> Stay aware of the latest information
+                    on
+                    the
+                    COVID-19 outbreak, available on the WHO website and through your national and local public
+                    health
+                    authority.
+                </p>
+            </div>
+            <div class="row ">
+                <div class="col d-flex flex-column justify-content-center align-items-center text-center"><img
+                        src="imgs/advice-a.png" alt="advice1">
+                    <strong>Wash your hands frequently</strong>
+                    <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with
+                        soap
+                        and water for at least 20 seconds.</p>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center  text-center"><img
+                        src="imgs/advice-b.png" alt="">
+                    <strong>Maintain social distancing</strong>
+                    <p>Maintain at least 1 metre (3 feet) distance between yourself & anyone who is coughing or
+                        sneezing. If you are too close, get chance to infected.</p>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center  text-center"><img
+                        src="imgs/advice-c.png" alt="">
+                    <strong>Avoid touching face</strong>
+                    <p>Hands touch many surfaces and can pick up viruses. So, hands can transfer the virus to your
+                        eyes,
+                        nose or mouth and can make you sick.</p>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center  text-center mb-4"><img
+                        src="imgs/advice-d.png" alt="">
+                    <strong>Practice respiratory hygiene</strong>
+                    <p>Maintain good respiratory hygiene as covering your mouth & nose with your bent elbow or
+                        tissue
+                        when cough or sneeze.</p>
+                </div>
+            </div>
+            <div class="row check mt-5 text-center ">
+                <div class="col">
+                    <button class="me-5">Check how you wash hand <i class="fas fa-arrow-right-long ms-3"></i></button>
+                    <a href="#">Q&A on coronavirus <i class="fas fa-arrow-right-long ms-3"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container outer steps p-5">
+            <div class="row">
+                <div class="col-8">
+                    <h3>Take steps to protect others</h3>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i> <span>Stay home if you’re
+                            sick</span>
+                        – Stay home
+                        if you
+                        are sick, except to get medical care.</p>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i> <span>Cover your mouth and
+                            nose</span>
+                        – with a
+                        tissue
+                        when you cough or sneeze (throw used tissues in the trash) or use the inside of your elbow.
+                    </p>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i> <span>Wear a facemask if you are
+                            sick</span> – You
+                        should wear a facemask when you are around other people (e.g., sharing a room or vehicle)
+                        and
+                        before you enter a healthcare provider’s</p>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i> <span>Clean AND disinfect
+                            frequently
+                            touched
+                            surfaces
+                            daily</span> – This includes phones, tables, light switches, doorknobs, countertops,
+                        handles, desks, toilets, faucets, and sinks.</p>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i> <span>Clean the dirty
+                            surfaces</span>
+                        – Use
+                        detergent or
+                        soap and water prior to disinfection.</p>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i> <span>Stay informed about the
+                            local
+                            COVID-19
+                            situation</span> – Get up-to-date information about local COVID-19 activity from <a
+                            href="#">public
+                            health officials.</a> </p>
+                    <p><i class="fa-solid fa-circle-check me-2 text-success"></i><span>Dedicated, lined trash can
+                        </span> – If
+                        possible,
+                        dedicate a lined trash can for the ill person. Use gloves when removing garbage bags, and
+                        handling & disposing of trash.</p>
+                </div>
+                <div class="col-4"><img src="imgs/steps.png" alt="steps"></div>
+            </div>
+        </div>
+
+        <div class="container outer wash mt-5 pt-5 mb-5">
+            <div class="row text-center ">
+                <h3>Follow steps to wash hands</h3>
+                <a href="#">Why do I need wash hand <i class="fas fa-arrow-right-long"></i></a>
+            </div>
+            <div class="row mt-5 pt-2">
+                <div class="col text-center"><img src="imgs/hand-a.png" class="hand" alt="">
+                    <p>Soap on Hand</p>
+                </div>
+                <div class="col text-center"><img src="imgs/hand-b.png" class="hand" alt="">
+                    <p>Palm to Palm</p>
+                </div>
+                <div class="col text-center"><img src="imgs/hand-c.png" class="hand" alt="">
+                    <p>Between Fingers</p>
+                </div>
+                <div class="col text-center"><img src="imgs/hand-d.png" class="hand" alt="">
+                    <p>Back to Hands</p>
+                </div>
+                <div class="col text-center"><img src="imgs/hand-e.png" class="hand" alt="">
+                    <p>Clean with Water</p>
+                </div>
+                <div class="col text-center"><img src="imgs/hand-f.png" class="hand" alt="">
+                    <p>Focus on Wrist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of prevention  -->
+
+    <!-- start of treatment -->
+    <div class="container-fluid careful py-5" id="Treatment">
+        <div class="container outer treatment">
+            <div class="row d-flex align-items-center justify-content-between ">
+                <div class="col-6 ">
+                    <p class="start">
+                        BE CAREFULL & STAY SAFE</p>
+                    <h2>TREATMENT FOR CORONAVIRUS</h2>
+                    <p class="words"> <span>To date, there is no vaccine and no specific antiviral medicine to
+                            prevent
+                            or treat
+                            COVID-2019.</span>
+                        However, those affected should receive care to relieve symptoms. People with serious illness
+                        should be hospitalized. Most patients recover thanks to supportive care.</p>
+                    <p class="words">Antibiotics do not help, as they do not work against viruses. Treatment aims to
+                        relieve the
+                        symptoms while your body fights the illness. You'll need to stay in isolation, away from
+                        other
+                        people, until you have recovered.</p>
+                </div>
+                <div class="col-6 self-care p-5">
+                    <p class="up">Self Care</p>
+                    <p>If you have mild symptoms, stay at home until you’ve recovered. You can relieve your symptoms
+                        if
+                        you:</p>
+                    <p><i class="fas fa-arrow-right-long me-2"></i>Rest and sleep</p>
+                    <p><i class="fas fa-arrow-right-long me-2"></i>Keep warm</p>
+                    <p><i class="fas fa-arrow-right-long me-2"></i>Drink plenty of liquids</p>
+
+                    <p><i class="fas fa-arrow-right-long me-2"></i>Use a room humidifier or take a hot
+                        shower to help
+                        ease a
+                        sore throat and cough</p><br>
+                    <p class="up">Medical Treatments</p>
+                    <p>If you develop a fever, cough, and have difficulty breathing, promptly seek medical care.
+                        Call in
+                        advance and tell your health provider of any recent travel or recent contact with travelers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of treatment -->
+
+    <!-- start of Do-&-Dont -->
+    <div class="do-dont container-fluid " id="Do-&-Dont">
+        <div class="container outer ">
+            <div class="row  text-center ">
+                <p class="start">DO’S & DON’TS</p>
+                <h2>PROTECT YOURSELF
+                </h2>
+                <p class="paragraph">The best thing you can do now is plan for how you can adapt your daily routine.
+                    Take few steps to protect yourself as Clean your hands often, Avoid close contact, Cover coughs
+                    and
+                    sneezes, clean daily used surfaces etc. The best way to prevent illness is to avoid being
+                    exposed to
+                    this virus.</p>
+            </div>
+            <div class="dont-and-do row d-flex align-items-center justify-content-center  ">
+                <div class="advices col-4">
+                    <div class="dont-advice row align-items-center mb-3">
+                        <div class="col d-flex align-items-center justify-content-end ">
+                            <p>Avoid Close Contact
+                            </p>
+                        </div>
+                        <div class="cross col"><img src="imgs/donts-b.png" alt="dont-a">
+                        </div>
+                        <div class="col bordered"></div>
+
+                    </div>
+                    <div class="dont-advice row align-items-center mb-3">
+                        <div class="col  d-flex align-items-center justify-content-end ">
+                            <p>Don’t Touch Face
+
+                            </p>
+                        </div>
+                        <div class="cross col "><img src="imgs/donts-b.png" alt="dont-b"></div>
+                        <div class="col bordered"></div>
+
+                    </div>
+                    <div class="dont-advice row align-items-center mb-3 ">
+                        <div class="col  d-flex align-items-center justify-content-end ">
+                            <p>Social Distancing
+                            </p>
+                        </div>
+                        <div class="cross col "><img src="imgs/donts-c.png" alt="dont-c"></div>
+                        <div class="col bordered"></div>
+
+                    </div>
+                </div>
+                <div class="protect col-4 ">
+                    <img src="imgs/protect.png" alt="protect">
+                </div>
+                <div class="advices col-4 ">
+                    <div class="do-advice row align-items-center mb-3 ">
+                        <div class="col bordered"></div>
+                        <div class="check col d-flex align-items-center justify-content-end"><img src="imgs/dos-a.png"
+                                alt="dont-a"></div>
+                        <div class="col ">
+                            <p>
+                                Wash Your Hands
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-advice row align-items-center mb-3 ">
+                        <div class="col bordered"></div>
+                        <div class="check col d-flex align-items-center justify-content-end"><img src="imgs/dos-b.png"
+                                alt="dont-a"></div>
+                        <div class="col ">
+                            <p>
+                                Drink Much Water
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-advice row align-items-center mb-3  ">
+                        <div class="col bordered"></div>
+                        <div class="check col d-flex align-items-center justify-content-end"><img src="imgs/dos-c.png"
+                                alt="dont-a"></div>
+                        <div class="col ">
+                            <p>
+                                Use Face Mask
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of Do-&-Dont -->
+
+    <!-- start of FAQ -->
+    <div class="container outer acc mt-5 pt-5" id="FAQ">
+        <div class="row text-center mt-5">
+            <p class="start">FREQUENTLY ASKED QUESTIONS</p>
+            <h2>COMMON QUESTION & ANSWER</h2>
+        </div>
+        <div class="row mt-5 ">
+
+            <div class="col-4">
+                <div class="list-group d-grid gap-2" id="list-tab" role="tablist">
+                    <a class="icon list-group-item list-group-item-action active" id="disease-list"
+                        data-bs-toggle="list" href="#disease" role="tab" aria-controls="disease">Coronavirus Disease
+                        2019 Basics</a>
+                    <a class="icon list-group-item list-group-item-action" id="spread-list" data-bs-toggle="list"
+                        href="#spread" role="tab" aria-controls="spread">How It Spreads</a>
+                    <a class="icon list-group-item list-group-item-action" id="protect-list" data-bs-toggle="list"
+                        href="#protect" role="tab" aria-controls="protect">How to Protect Yourself</a>
+                    <a class="icon list-group-item list-group-item-action" id="symptoms-list" data-bs-toggle="list"
+                        href="#symptoms" role="tab" aria-controls="symptoms">Symptoms & Testing</a>
+                    <a class="icon list-group-item list-group-item-action" id="outbreak-list" data-bs-toggle="list"
+                        href="#outbreak" role="tab" aria-controls="outbreak">Outbreak in Your Community</a>
+                    <a class="icon list-group-item list-group-item-action" id="myth-busters-list" data-bs-toggle="list"
+                        href="#myth-busters" role="tab" aria-controls="myth-busters">Myth-Busters of coronavirus</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="disease" role="tabpanel" aria-labelledby="disease-list">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#novel" aria-expanded="true" aria-controls="novel">
+                                        What is a novel coronavirus?
+                                    </button>
+                                </h2>
+                                <div id="novel" class="accordion-collapse collapse show" aria-labelledby="heading-1">
+                                    <div class="accordion-body">
+                                        <p>On February 11, 2020 the World Health Organization announced an official
+                                            name
+                                            for the disease that is causing the 2019 novel coronavirus outbreak,
+                                            first
+                                            identified in Wuhan China. The new name of this disease is coronavirus
+                                            disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for
+                                            ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease
+                                            was
+                                            referred to as “2019 novel coronavirus” or “2019-nCoV”.
+                                        </p>
+                                        <p>A novel coronavirus is a new coronavirus that has not been previously
+                                            identified. The virus causing coronavirus disease 2019 (COVID-19), is
+                                            not
+                                            the same as the <a href="#"> coronaviruses that commonly circulate among
+                                                humans</a> and cause
+                                            mild illness, like the common cold.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#reason-of-calling" aria-expanded="false"
+                                        aria-controls="reason-of-calling">
+                                        Why is the disease being called coronavirus disease 2019, COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="reason-of-calling" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-2">
+                                    <div class="accordion-body">
+                                        <p>On February 11, 2020 the World Health Organization announced an official
+                                            name
+                                            for the disease that is causing the 2019 novel coronavirus outbreak,
+                                            first
+                                            identified in Wuhan China. The new name of this disease is coronavirus
+                                            disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for
+                                            ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease
+                                            was
+                                            referred to as “2019 novel coronavirus” or “2019-nCoV”.</p>
+                                        <p>There are <a href="#">many types </a> of human coronaviruses including
+                                            some
+                                            that commonly cause mild upper-respiratory tract illnesses. COVID-19 is
+                                            a
+                                            new disease, caused be a novel (or new) coronavirus that has not
+                                            previously
+                                            been seen in humans. The name of this disease was selected following the
+                                            World Health Organization (WHO) best practiceexternal icon for naming of
+                                            new
+                                            human infectious diseases.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#stopping-stigma" aria-expanded="false"
+                                        aria-controls="stopping-stigma">
+                                        How can people help stop stigma related to COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="stopping-stigma" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-3">
+                                    <div class="accordion-body">
+                                        <p>People can fight stigma and help, not hurt, others by providing social
+                                            support. Counter stigma by learning and sharing facts. Communicating the
+                                            facts that viruses do not target specific racial or ethnic groups and
+                                            how
+                                            COVID-19 actually spreads can help stop stigma.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#blame-or-avoid" aria-expanded="false"
+                                        aria-controls="blame-or-avoid">
+                                        Why might someone blame or avoid individuals and groups?
+                                    </button>
+                                </h2>
+                                <div id="blame-or-avoid" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-4">
+                                    <div class="accordion-body">
+                                        <p>People in the U.S. may be worried or anxious about friends and relatives
+                                            who
+                                            are living in or visiting areas where COVID-19 is spreading. Some people
+                                            are
+                                            worried about the disease. Fear and anxiety can lead to social stigma,
+                                            for
+                                            example, towards Chinese or other Asian Americans or people who were in
+                                            quarantine.</p>
+                                        <p>Stigma is discrimination against an identifiable group of people, a
+                                            place, or
+                                            a nation. Stigma is associated with a lack of knowledge about how
+                                            COVID-19
+                                            spreads, a need to blame someone, fears about disease and death, and
+                                            gossip
+                                            that spreads rumors and myths.</p>
+                                        <p>Stigma hurts everyone by creating more fear or anger towards ordinary
+                                            people
+                                            instead of the disease that is causing the problem.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="spread" role="tabpanel" aria-labelledby="spread-list">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#source" aria-expanded="true" aria-controls="source">
+                                        What is the source of the virus?
+                                    </button>
+                                </h2>
+                                <div id="source" class="accordion-collapse collapse show" aria-labelledby="heading-1">
+                                    <div class="accordion-body">
+                                        <p>Coronaviruses are a large family of viruses. Some cause illness in
+                                            people,
+                                            and
+                                            others, such as canine and feline coronaviruses, only infect animals.
+                                            Rarely,
+                                            animal coronaviruses that infect animals have emerged to infect people
+                                            and
+                                            can
+                                            spread between people. This is suspected to have occurred for the virus
+                                            that
+                                            causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe
+                                            Acute
+                                            Respiratory Syndrome (SARS) are two other examples of coronaviruses that
+                                            originated from animals and then spread to people. More information
+                                            about
+                                            the
+                                            source and spread of COVID-19 is available on the <a href=""> Situation
+                                                Summary: Source and
+                                                Spread of the Virus</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#reason-of-spreading" aria-expanded="false"
+                                        aria-controls="reason-of-spreading">
+                                        How does the virus spread?
+                                    </button>
+                                </h2>
+                                <div id="reason-of-spreading" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-2">
+                                    <div class="accordion-body">
+                                        <p>This virus was first detected in Wuhan City, Hubei Province, China. The
+                                            first
+                                            infections were linked to a live animal market, but the virus is now
+                                            spreading
+                                            from person-to-person. It’s important to note that person-to-person
+                                            spread
+                                            can
+                                            happen on a continuum. Some viruses are highly contagious (like
+                                            measles),
+                                            while
+                                            other viruses are less so.</p>
+                                        <p>The virus that causes COVID-19 seems to be spreading easily and
+                                            sustainably
+                                            in
+                                            the community (“community spread”) in <a href="#"> some affected
+                                                geographic
+                                                areas</a>. Community
+                                            spread means people have been infected with the virus in an area,
+                                            including
+                                            some
+                                            who are not sure how or where they became infected.</p>
+                                        <p>Learn what is known about <a href="#">the spread of newly emerged
+                                                coronaviruses</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#illness" aria-expanded="false" aria-controls="illness">
+                                        Can someone who has had COVID-19 spread the illness to others?
+                                    </button>
+                                </h2>
+                                <div id="illness" class="accordion-collapse collapse" aria-labelledby="heading-3">
+                                    <div class="accordion-body">
+                                        <p>The virus that causes COVID-19 is <a href="#"> spreading from
+                                                person-to-person</a>. Someone who is
+                                            actively sick with COVID-19 can spread the illness to others. That is
+                                            why
+                                            CDC
+                                            recommends that these patients be isolated either in the hospital or at
+                                            home
+                                            (depending on how sick they are) until they are better and no longer
+                                            pose a
+                                            risk
+                                            of infecting others.</p>
+                                        <p>How long someone is actively sick can vary so the decision on when to
+                                            release
+                                            someone from isolation is made on a case-by-case basis in consultation
+                                            with
+                                            doctors, infection prevention and control experts, and public health
+                                            officials
+                                            and involves considering specifics of each situation including disease
+                                            severity,
+                                            illness signs and symptoms, and results of laboratory testing for that
+                                            patient.
+                                        </p>
+                                        <p>Current <a href="#">CDC guidance for when it is OK to release someone
+                                                from
+                                                isolation</a> is made
+                                            on a case by case basis and includes meeting all of the following
+                                            requirements:
+                                        </p>
+                                        <p>The patient is free from fever without the use of fever-reducing
+                                            medications.
+                                            The patient is no longer showing symptoms, including cough.
+                                            The patient has tested negative on at least two consecutive respiratory
+                                            specimens collected at least 24 hours apart. <br>
+                                            Someone who has been released from isolation is not considered to pose a
+                                            risk of
+                                            infection to others.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#will" aria-expanded="false" aria-controls="will">
+                                        Will warm weather stop the outbreak of COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="will" class="accordion-collapse collapse" aria-labelledby="heading-4">
+                                    <div class="accordion-body">
+                                        <p>It is not yet known whether weather and temperature impact the spread of
+                                            COVID-19. Some other viruses, like the common cold and flu, spread more
+                                            during cold weather months but that does not mean it is impossible to
+                                            become
+                                            sick with these viruses during other months. At this time, it is not
+                                            known
+                                            whether the spread of COVID-19 will decrease when weather becomes
+                                            warmer.
+                                            There is much more to learn about the transmissibility, severity, and
+                                            other
+                                            features associated with COVID-19 and investigations are ongoing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#spread-through-food" aria-expanded="false"
+                                        aria-controls="spread-through-food">
+                                        Can the virus that causes COVID-19 be spread through food, including
+                                        refrigerated or frozen food?
+                                    </button>
+                                </h2>
+                                <div id="spread-through-food" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-5">
+                                    <div class="accordion-body">
+                                        <p>Coronaviruses are generally thought to be spread from person-to-person
+                                            through respiratory droplets. Currently there is no evidence to support
+                                            transmission of COVID-19 associated with food. Before preparing or
+                                            eating
+                                            food it is important to always wash your hands with soap and water for
+                                            20
+                                            seconds for general food safety. Throughout the day wash your hands
+                                            after
+                                            blowing your nose, coughing or sneezing, or going to the bathroom.</p>
+                                        <p>It may be possible that a person can get COVID-19 by touching a surface
+                                            or
+                                            object that has the virus on it and then touching their own mouth, nose,
+                                            or
+                                            possibly their eyes, but this is not thought to be the main way the
+                                            virus
+                                            spreads.</p>
+                                        <p>In general, because of poor survivability of these coronaviruses on
+                                            surfaces,
+                                            there is likely very low risk of spread from food products or packaging
+                                            that
+                                            are shipped over a period of days or weeks at ambient, refrigerated, or
+                                            frozen temperatures.</p>
+                                        <p>Learn what is known about the <a href="#">spread of COVID-19</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#community-spread" aria-expanded="false"
+                                        aria-controls="community-spread">
+                                        What is community spread?
+                                </h2>
+                                <div id="community-spread" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-6">
+                                    <div class="accordion-body">
+                                        <p>Community spread means people have been infected with the virus in an
+                                            area,
+                                            including some who are not sure how or where they became infected.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="protect" role="tabpanel" aria-labelledby="protect-list">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#protecting" aria-expanded="true" aria-controls="protecting">
+                                        What can I do to protect myself and prevent the spread of disease?
+                                    </button>
+                                </h2>
+                                <div id="protecting" class="accordion-collapse collapse show"
+                                    aria-labelledby="heading-1">
+                                    <div class="accordion-body">
+                                        <p><span>Protection measures for everyone</span></p>
+                                        <p>Stay aware of the latest information on the COVID-19 outbreak, available
+                                            on
+                                            the WHO website and through your national and local public health
+                                            authority.
+                                            Many countries around the world have seen cases of COVID-19 and several
+                                            have
+                                            seen outbreaks. Authorities in China and some other countries have
+                                            succeeded
+                                            in slowing or stopping their outbreaks. However, the situation is
+                                            unpredictable so check regularly for the latest news.</p>
+                                        <p>You can reduce your chances of being infected or spreading COVID-19 by
+                                            taking
+                                            some simple precautions:</p>
+                                        <ul>
+                                            <li>Regularly and thoroughly clean your hands with an alcohol-based hand
+                                                rub
+                                                or wash them with soap and water. <br>
+                                                <span>Why?</span> Washing your hands with soap and water or using
+                                                alcohol-based hand
+                                                rub kills viruses that may be on your hands.
+                                            </li> <br>
+                                            <li>Maintain at least 1 metre (3 feet) distance between yourself and
+                                                anyone
+                                                who is coughing or sneezing. <br>
+                                                <span>Why?</span> When someone coughs or sneezes they spray small
+                                                liquid
+                                                droplets
+                                                from their nose or mouth which may contain virus. If you are too
+                                                close,
+                                                you can breathe in the droplets, including the COVID-19 virus if the
+                                                person coughing has the disease.
+                                            </li> <br>
+                                            <li>Avoid touching eyes, nose and mouth. <br>
+                                                <span>Why?</span> Hands touch many surfaces and can pick up viruses.
+                                                Once
+                                                contaminated, hands can transfer the virus to your eyes, nose or
+                                                mouth.
+                                                From there, the virus can enter your body and can make you sick.
+                                            </li>
+                                            <br>
+                                            <li>Make sure you, and the people around you, follow good respiratory
+                                                hygiene. This means covering your mouth and nose with your bent
+                                                elbow or
+                                                tissue when you cough or sneeze. Then dispose of the used tissue
+                                                immediately. <br>
+                                                <span>Why?</span> Droplets spread virus. By following good
+                                                respiratory
+                                                hygiene you
+                                                protect the people around you from viruses such as cold, flu and
+                                                COVID-19.
+                                            </li> <br>
+                                            <li>Stay home if you feel unwell. If you have a fever, cough and
+                                                difficulty
+                                                breathing, seek medical attention and call in advance. Follow the
+                                                directions of your local health authority. <br>
+                                                <span>Why?</span> National and local authorities will have the most
+                                                up
+                                                to date
+                                                information on the situation in your area. Calling in advance will
+                                                allow
+                                                your health care provider to quickly direct you to the right health
+                                                facility. This will also protect you and help prevent spread of
+                                                viruses
+                                                and other infections.
+                                            </li> <br>
+                                            <li>Keep up to date on the latest COVID-19 hotspots (cities or local
+                                                areas
+                                                where COVID-19 is spreading widely). If possible, avoid traveling to
+                                                places – especially if you are an older person or have diabetes,
+                                                heart
+                                                or lung disease. <br>
+                                                <span>Why?</span> You have a higher chance of catching COVID-19 in
+                                                one
+                                                of these
+                                                areas.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#close-contact" aria-expanded="false"
+                                        aria-controls="close-contact">
+                                        What should I do if I had close contact with someone who has COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="close-contact" class="accordion-collapse collapse" aria-labelledby="heading-2">
+                                    <div class="accordion-body">
+                                        <p>Household members, intimate partners, and caregivers in a nonhealthcare
+                                            setting may have close contact2 with a person with symptomatic,
+                                            laboratory-confirmed COVID-19 or a person under investigation. Close
+                                            contacts should monitor their health; they should call their healthcare
+                                            provider right away if they develop symptoms suggestive of COVID-19
+                                            (e.g.,
+                                            fever, cough, shortness of breath)</p>
+                                        <p>Close contacts should also follow these recommendations:</p>
+                                        <ul>
+                                            <li>Make sure that you understand and can help the patient follow their
+                                                healthcare provider’s instructions for medication(s) and care. You
+                                                should help the patient with basic needs in the home and provide
+                                                support
+                                                for getting groceries, prescriptions, and other personal needs.</li>
+                                            <br>
+                                            <li>Monitor the patient’s symptoms. If the patient is getting sicker,
+                                                call
+                                                his or her healthcare provider and tell them that the patient has
+                                                laboratory-confirmed COVID-19. This will help the healthcare
+                                                provider’s
+                                                office take steps to keep other people in the office or waiting room
+                                                from getting infected. Ask the healthcare provider to call the local
+                                                or
+                                                state health department for additional guidance. If the patient has
+                                                a
+                                                medical emergency and you need to call 911, notify the dispatch
+                                                personnel that the patient has, or is being evaluated for COVID-19.
+                                            </li>
+                                            <br>
+                                            <li>Household members should stay in another room or be separated from
+                                                the
+                                                patient as much as possible. Household members should use a separate
+                                                bedroom and bathroom, if available.</li> <br>
+                                            <li>Prohibit visitors who do not have an essential need to be in the
+                                                home.
+                                            </li> <br>
+                                            <li>Household members should care for any pets in the home. Do not
+                                                handle
+                                                pets or other animals while sick. For more information, see <a
+                                                    href="#">COVID-19 and
+                                                    Animals</a>.</li> <br>
+                                            <li>Make sure that shared spaces in the home have good air flow, such as
+                                                by
+                                                an air conditioner or an opened window, weather permitting.</li>
+                                            <br>
+                                            <li>Perform hand hygiene frequently. Wash your hands often with soap and
+                                                water for at least 20 seconds or use an alcohol-based hand sanitizer
+                                                that contains 60 to 95% alcohol, covering all surfaces of your hands
+                                                and
+                                                rubbing them together until they feel dry. Soap and water should be
+                                                used
+                                                preferentially if hands are visibly dirty.</li> <br>
+                                            <li>Avoid touching your eyes, nose, and mouth with unwashed hands.</li>
+                                            <br>
+                                            <li>The patient should wear a facemask when you are around other people.
+                                                If
+                                                the patient is not able to wear a facemask (for example, because it
+                                                causes trouble breathing), you, as the caregiver, should wear a mask
+                                                when you are in the same room as the patient.</li> <br>
+                                            <li>Wear a disposable facemask and gloves when you touch or have contact
+                                                with the patient’s blood, stool, or body fluids, such as saliva,
+                                                sputum,
+                                                nasal mucus, vomit, urine.
+                                                <ul> <br>
+                                                    <li>Throw out disposable facemasks and gloves after using them.
+                                                        Do
+                                                        not reuse.</li> <br>
+                                                    <li>When removing personal protective equipment, first remove
+                                                        and
+                                                        dispose of gloves. Then, immediately clean your hands with
+                                                        soap
+                                                        and water or alcohol-based hand sanitizer. Next, remove and
+                                                        dispose of facemask, and immediately clean your hands again
+                                                        with
+                                                        soap and water or alcohol-based hand sanitizer.</li> <br>
+                                                </ul>
+                                            </li> <br>
+                                            <li>Avoid sharing household items with the patient. You should not share
+                                                dishes, drinking glasses, cups, eating utensils, towels, bedding, or
+                                                other items. After the patient uses these items, you should wash
+                                                them
+                                                thoroughly (see below “Wash laundry thoroughly”).</li> <br>
+                                            <li>Clean all “high-touch” surfaces, such as counters, tabletops,
+                                                doorknobs,
+                                                bathroom fixtures, toilets, phones, keyboards, tablets, and bedside
+                                                tables, every day. Also, clean any surfaces that may have blood,
+                                                stool,
+                                                or body fluids on them.
+                                                <ul> <br>
+                                                    <li>Use a household cleaning spray or wipe, according to the
+                                                        label
+                                                        instructions. Labels contain instructions for safe and
+                                                        effective
+                                                        use of the cleaning product including precautions you should
+                                                        take when applying the product, such as wearing gloves and
+                                                        making sure you have good ventilation during use of the
+                                                        product.
+                                                    </li> <br>
+                                                </ul>
+                                            </li> <br>
+                                            <li>Wash laundry thoroughly.
+
+                                                <ul> <br>
+                                                    <li>Immediately remove and wash clothes or bedding that have
+                                                        blood,
+                                                        stool, or body fluids on them.</li> <br>
+                                                    <li>Wear disposable gloves while handling soiled items and keep
+                                                        soiled items away from your body. Clean your hands (with
+                                                        soap
+                                                        and water or an alcohol-based hand sanitizer) immediately
+                                                        after
+                                                        removing your gloves.</li> <br>
+                                                    <li>Read and follow directions on labels of laundry or clothing
+                                                        items and detergent. In general, using a normal laundry
+                                                        detergent according to washing machine instructions and dry
+                                                        thoroughly using the warmest temperatures recommended on the
+                                                        clothing label.</li> <br>
+                                                </ul>
+                                            </li> <br>
+                                            <li>Place all used disposable gloves, facemasks, and other contaminated
+                                                items in a lined container before disposing of them with other
+                                                household
+                                                waste. Clean your hands (with soap and water or an alcohol-based
+                                                hand
+                                                sanitizer) immediately after handling these items. Soap and water
+                                                should
+                                                be used preferentially if hands are visibly dirty.</li> <br>
+                                            <li>Discuss any additional questions with your state or local health
+                                                department or healthcare provider. Check available hours when
+                                                contacting
+                                                your local health department.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#higher-risk" aria-expanded="false" aria-controls="higher-risk">
+                                        Who is at higher risk for serious illness from COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="higher-risk" class="accordion-collapse collapse" aria-labelledby="heading-3">
+                                    <div class="accordion-body">
+                                        <p><span>Older adults and people of any age who have serious underlying
+                                                medical
+                                                conditions</span> may be at higher risk for more serious
+                                            complications
+                                            from
+                                            COVID-19. These people who may be at higher risk of getting very sick
+                                            from
+                                            this illness, includes:</p>
+                                        <li><span>Older adults</span></li> <br>
+                                        <li>People who have serious underlying medical conditions like:
+                                            <ul> <br>
+                                                <li>Heart disease</li><br>
+                                                <li>Diabetes</li><br>
+                                                <li>Lung disease</li><br>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#what" aria-expanded="false" aria-controls="what">
+                                        What should people at higher risk of serious illness with COVID-19 do?
+                                    </button>
+                                </h2>
+                                <div id="what" class="accordion-collapse collapse" aria-labelledby="heading-4">
+                                    <div class="accordion-body">
+                                        <p>If you are at higher risk of getting very sick from COVID-19, you should:
+                                            stock up on supplies; take everyday precautions to keep space between
+                                            yourself and others; when you go out in public, keep away from others
+                                            who
+                                            are sick; limit close contact and wash your hands often; and avoid
+                                            crowds,
+                                            cruise travel, and non-essential travel. If there is an outbreak in your
+                                            community, stay home as much as possible. Watch for symptoms and
+                                            emergency
+                                            signs. If you get sick, stay home and call your doctor. More information
+                                            on
+                                            how to prepare, what to do if you get sick, and how communities and
+                                            caregivers can support those at higher risk is available on <a
+                                                href="#">People at Risk
+                                                for Serious Illness from COVID-19</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#mask" aria-expanded="false" aria-controls="mask">
+                                        Should I wear a mask to protect myself?
+                                </h2>
+                                <div id="mask" class="accordion-collapse collapse" aria-labelledby="heading-5">
+                                    <div class="accordion-body">
+                                        <p>Only wear a mask if you are ill with COVID-19 symptoms (especially
+                                            coughing)
+                                            or looking after someone who may have COVID-19. Disposable face mask can
+                                            only be used once. If you are not ill or looking after someone who is
+                                            ill
+                                            then you are wasting a mask. There is a world-wide shortage of masks, so
+                                            WHO
+                                            urges people to use masks wisely.</p>
+                                        <p>WHO advises rational use of medical masks to avoid unnecessary wastage of
+                                            precious resources and mis-use of masks (<a href="#">see Advice on the
+                                                use
+                                                of masks</a>).</p>
+                                        <p>The most effective ways to protect yourself and others against COVID-19
+                                            are
+                                            to frequently clean your hands, cover your cough with the bend of elbow
+                                            or
+                                            tissue and maintain a distance of at least 1 meter (3 feet) from people
+                                            who
+                                            are coughing or sneezing. See basic protective measures against the new
+                                            coronavirus for more information.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="symptoms" role="tabpanel" aria-labelledby="symptoms-list">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#wht-symp" aria-expanded="true" aria-controls="wht-symp">
+                                        What are the symptoms of COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="wht-symp" class="accordion-collapse collapse show" aria-labelledby="heading-1">
+                                    <div class="accordion-body">
+                                        <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough.
+                                            Some patients may have aches and pains, nasal congestion, runny nose,
+                                            sore
+                                            throat or diarrhea. These symptoms are usually mild and begin gradually.
+                                            Some people become infected but don’t develop any symptoms and don't
+                                            feel
+                                            unwell. Most people (about 80%) recover from the disease without needing
+                                            special treatment. Around 1 out of every 6 people who gets COVID-19
+                                            becomes
+                                            seriously ill and develops difficulty breathing. Older people, and those
+                                            with underlying medical problems like high blood pressure, heart
+                                            problems or
+                                            diabetes, are more likely to develop serious illness. People with fever,
+                                            cough and difficulty breathing should seek medical attention.</p>
+                                        <p>Read about <a href="#">COVID-19 Symptoms from CDC.gov</a> .</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#tested" aria-expanded="false" aria-controls="tested">
+                                        Should I be tested for COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="tested" class="accordion-collapse collapse" aria-labelledby="heading-2">
+                                    <div class="accordion-body">
+                                        <p>Not everyone needs to be tested for COVID-19. For information about
+                                            testing,
+                                            see <a href="#">Testing for COVID-19.</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#where-test" aria-expanded="false" aria-controls="where-test">
+                                        Where can I get tested for COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="where-test" class="accordion-collapse collapse" aria-labelledby="heading-3">
+                                    <div class="accordion-body">
+                                        <p>The process and locations for testing vary from place to place. Contact
+                                            your
+                                            state, local, tribal, or territorial department for more information, or
+                                            reach out to a medical provider. State and local public health
+                                            departments
+                                            have received tests from CDC while medical providers are getting tests
+                                            developed by commercial manufacturers. While supplies of these tests are
+                                            increasing, it may still be difficult to find someplace to get tested.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#negative" aria-expanded="false" aria-controls="negative">
+                                        Can a person test negative and later test positive for COVID-19?
+                                    </button>
+                                </h2>
+                                <div id="negative" class="accordion-collapse collapse" aria-labelledby="heading-4">
+                                    <div class="accordion-body">
+                                        <p>Using the CDC-developed diagnostic test, a negative result means that the
+                                            virus that causes COVID-19 was not found in the person’s sample. In the
+                                            early stages of infection, it is possible the virus will not be
+                                            detected.
+                                        </p>
+                                        <p>For COVID-19, a negative test result for a sample collected while a
+                                            person
+                                            has symptoms likely means that the COVID-19 virus is not causing their
+                                            current illness.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="outbreak" role="tabpanel" aria-labelledby="outbreak-lis">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#outbrek-comm" aria-expanded="true"
+                                        aria-controls="outbrek-comm">
+                                        What should I do if there is an outbreak in my community?
+                                    </button>
+                                </h2>
+                                <div id="outbrek-comm" class="accordion-collapse collapse show"
+                                    aria-labelledby="heading-1">
+                                    <div class="accordion-body">
+                                        <p>During an outbreak, stay calm and put your preparedness plan to work.
+                                            Follow
+                                            the steps below:</p>
+                                        <p> <a href="#">Protect yourself and others</a>.</p>
+                                        <ul>
+
+                                            <li>Stay home if you are sick. Keep away from people who are sick. Limit
+                                                close contact with others as much as possible (about 6 feet).</li>
+                                        </ul>
+
+                                        <p><span>Put your household plan into action.</span> </p>
+
+                                        <ul>
+                                            <li><span>Stay informed about the local COVID-19 situation</span>. Be
+                                                aware
+                                                of temporary
+                                                school dismissals in your area, as this may affect your household’s
+                                                daily routine.</li> <br>
+                                            <li><span>Continue practicing everyday preventive actions</span>. Cover
+                                                coughs and
+                                                sneezes with a tissue and wash your hands often with soap and water
+                                                for
+                                                at least 20 seconds. If soap and water are not available, use a hand
+                                                sanitizer that contains 60% alcohol. Clean frequently touched
+                                                surfaces
+                                                and objects daily using a regular household detergent and water.
+                                            </li>
+                                            <br>
+                                            <li><span>Notify your workplace as soon as possible if your regular work
+                                                    schedule
+                                                    changes</span>. Ask to work from home or take leave if you or
+                                                someone in your
+                                                household gets sick with <a href="#">COVID-19 symptoms</a>, or if
+                                                your
+                                                child’s school is
+                                                dismissed temporarily. <a href="#">Learn how businesses and
+                                                    employers
+                                                    can plan for
+                                                    and respond to COVID-19.</a></li> <br>
+                                            <li>Stay in touch with others by phone or email. If you have a chronic
+                                                medical condition and live alone, ask family, friends, and health
+                                                care
+                                                providers to check on you during an outbreak. Stay in touch with
+                                                family
+                                                and friends, especially those at increased risk of developing severe
+                                                illness, such as older adults and people with severe chronic medical
+                                                conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#prepare-child" aria-expanded="false"
+                                        aria-controls="prepare-child">
+                                        How do I prepare my children in case of COVID-19 outbreak in our community?
+                                    </button>
+                                </h2>
+                                <div id="prepare-child" class="accordion-collapse collapse" aria-labelledby="heading-2">
+                                    <div class="accordion-body">
+                                        <p>Outbreaks can be stressful for adults and children. Talk with your
+                                            children
+                                            about the outbreak, try to stay calm, and reassure them that they are
+                                            safe.
+                                            If appropriate, explain to them that most illness from COVID-19 seems to
+                                            be
+                                            mild.</p>
+                                        <p><a href="#">Children respond differently to stressful situations than
+                                                adults</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#parents" aria-expanded="false" aria-controls="parents">
+                                        What steps should parents take to protect children during a community
+                                        outbreak?
+                                    </button>
+                                </h2>
+                                <div id="parents" class="accordion-collapse collapse" aria-labelledby="heading-3">
+                                    <div class="accordion-body">
+                                        <p>This is a new virus and we are still learning about it, but so far, there
+                                            does not seem to be a lot of illness in children. Most illness,
+                                            including
+                                            serious illness, is happening in adults of working age and older adults.
+                                            If
+                                            there cases of COVID-19 that impact your child’s school, the school may
+                                            dismiss students. Keep track of school dismissals in your community.
+                                            Read or
+                                            watch local media sources that report school dismissals. If schools are
+                                            dismissed temporarily, use alternative childcare arrangements, if
+                                            needed.
+                                        </p>
+                                        <p>If your child/children become sick with COVID-19, notify their childcare
+                                            facility or school. Talk with teachers about classroom assignments and
+                                            activities they can do from home to keep up with their schoolwork.</p>
+                                        <p>Discourage children and teens from gathering in other public places while
+                                            school is dismissed to help slow the spread of COVID-19 in the
+                                            community.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#schools" aria-expanded="false" aria-controls="schools">
+                                        Will schools be dismissed if there is an outbreak in my community??
+                                    </button>
+                                </h2>
+                                <div id="schools" class="accordion-collapse collapse" aria-labelledby="heading-4">
+                                    <div class="accordion-body">
+                                        <p>Depending on the situation, public health officials may recommend
+                                            community
+                                            actions to reduce exposures to COVID-19, such as school dismissals. Read
+                                            or
+                                            watch local media sources that report school dismissals or and watch for
+                                            communication from your child’s school. If schools are dismissed
+                                            temporarily, discourage students and staff from gathering or socializing
+                                            anywhere, like at a friend’s house, a favorite restaurant, or the local
+                                            shopping mall.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#spread-through-food-again" aria-expanded="false"
+                                        aria-controls="spread-through-food-again">
+                                        Can the virus that causes COVID-19 be spread through food, including
+                                        refrigerated or frozen food?
+                                </h2>
+                                <div id="spread-through-food-again" class="accordion-collapse collapse"
+                                    aria-labelledby="heading-5">
+                                    <div class="accordion-body">
+                                        <p>Coronaviruses are generally thought to be spread from person-to-person
+                                            through respiratory droplets. Currently there is no evidence to support
+                                            transmission of COVID-19 associated with food. Before preparing or
+                                            eating
+                                            food it is important to always wash your hands with soap and water for
+                                            20
+                                            seconds for general food safety. Throughout the day wash your hands
+                                            after
+                                            blowing your nose, coughing or sneezing, or going to the bathroom.</p>
+                                        <p>It may be possible that a person can get COVID-19 by touching a surface
+                                            or
+                                            object that has the virus on it and then touching their own mouth, nose,
+                                            or
+                                            possibly their eyes, but this is not thought to be the main way the
+                                            virus
+                                            spreads.</p>
+                                        <p>In general, because of poor survivability of these coronaviruses on
+                                            surfaces,
+                                            there is likely very low risk of spread from food products or packaging
+                                            that
+                                            are shipped over a period of days or weeks at ambient, refrigerated, or
+                                            frozen temperatures.</p>
+                                        <p>Learn what is known about the <a href="#">spread of COVID-19</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#work" aria-expanded="false" aria-controls="work">
+                                        Should I go to work if there is an outbreak in my community?
+                                    </button>
+                                </h2>
+                                <div id="work" class="accordion-collapse collapse" aria-labelledby="heading-6">
+                                    <div class="accordion-body">
+                                        <p>Follow the advice of your local health officials. Stay home if you can.
+                                            Talk
+                                            to your employer to discuss working from home, taking leave if you or
+                                            someone in your household gets sick with <a href="#">COVID-19
+                                                symptoms</a>,
+                                            or if your
+                                            child’s school is dismissed temporarily. Employers should be aware that
+                                            more
+                                            employees may need to stay at home to care for sick children or other
+                                            sick
+                                            family members than is usual in case of a community outbreak.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="myth-busters" role="tabpanel" aria-labelledby="outbreak-lis">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#humid-climates" aria-expanded="true"
+                                        aria-controls="humid-climates">
+                                        COVID-19 virus can be transmitted in areas with hot and humid climates?
+                                    </button>
+                                </h2>
+                                <div id="humid-climates" class="accordion-collapse collapse show"
+                                    aria-labelledby="heading-1">
+                                    <div class="accordion-body">
+                                        <p>From the evidence so far, the COVID-19 virus can be transmitted in ALL
+                                            AREAS,
+                                            including areas with hot and humid weather. Regardless of climate, adopt
+                                            protective measures if you live in, or travel to an area reporting
+                                            COVID-19.
+                                            The best way to protect yourself against COVID-19 is by frequently
+                                            cleaning
+                                            your hands. By doing this you eliminate viruses that may be on your
+                                            hands
+                                            and avoid infection that could occur by then touching your eyes, mouth,
+                                            and
+                                            nose.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#cold-weather" aria-expanded="false"
+                                        aria-controls="cold-weather">
+                                        Cold weather and snow CANNOT kill the new coronavirus
+                                    </button>
+                                </h2>
+                                <div id="cold-weather" class="accordion-collapse collapse" aria-labelledby="heading-2">
+                                    <div class="accordion-body">
+                                        <p>There is no reason to believe that cold weather can kill the new
+                                            coronavirus
+                                            or other diseases. The normal human body temperature remains around
+                                            36.5°C
+                                            to 37°C, regardless of the external temperature or weather. The most
+                                            effective way to protect yourself against the new coronavirus is by
+                                            frequently cleaning your hands with alcohol-based hand rub or washing
+                                            them
+                                            with soap and water.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#hot-bath" aria-expanded="false" aria-controls="hot-bath">
+                                        Taking a hot bath does not prevent the new coronavirus disease
+                                    </button>
+                                </h2>
+                                <div id="hot-bath" class="accordion-collapse collapse" aria-labelledby="heading-3">
+                                    <div class="accordion-body">
+                                        <p>Taking a hot bath will not prevent you from catching COVID-19. Your
+                                            normal
+                                            body temperature remains around 36.5°C to 37°C, regardless of the
+                                            temperature of your bath or shower. Actually, taking a hot bath with
+                                            extremely hot water can be harmful, as it can burn you. The best way to
+                                            protect yourself against COVID-19 is by frequently cleaning your hands.
+                                            By
+                                            doing this you eliminate viruses that may be on your hands and avoid
+                                            infection that could occur by then touching your eyes, mouth, and nose.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#mosquito" aria-expanded="false" aria-controls="mosquito">
+                                        The new coronavirus CANNOT be transmitted through mosquito bites.
+                                    </button>
+                                </h2>
+                                <div id="mosquito" class="accordion-collapse collapse" aria-labelledby="heading-4">
+                                    <div class="accordion-body">
+                                        <p>To date there has been no information nor evidence to suggest that the
+                                            new
+                                            coronavirus could be transmitted by mosquitoes. The new coronavirus is a
+                                            respiratory virus which spreads primarily through droplets generated
+                                            when an
+                                            infected person coughs or sneezes, or through droplets of saliva or
+                                            discharge from the nose. To protect yourself, clean your hands
+                                            frequently
+                                            with an alcohol-based hand rub or wash them with soap and water. Also,
+                                            avoid
+                                            close contact with anyone who is coughing and sneezing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#hand-dryers" aria-expanded="false" aria-controls="hand-dryers">
+                                        Are hand dryers effective in killing the new coronavirus?
+                                </h2>
+                                <div id="hand-dryers" class="accordion-collapse collapse" aria-labelledby="heading-5">
+                                    <div class="accordion-body">
+                                        <p>No. Hand dryers are not effective in killing the 2019-nCoV. To protect
+                                            yourself against the new coronavirus, you should frequently clean your
+                                            hands
+                                            with an alcohol-based hand rub or wash them with soap and water. Once
+                                            your
+                                            hands are cleaned, you should dry them thoroughly by using paper towels
+                                            or a
+                                            warm air dryer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#ultra-violet" aria-expanded="false"
+                                        aria-controls="ultra-violet">
+                                        Can an ultraviolet disinfection lamp kill the new coronavirus?
+                                    </button>
+                                </h2>
+                                <div id="ultra-violet" class="accordion-collapse collapse" aria-labelledby="heading-6">
+                                    <div class="accordion-body">
+                                        <p>UV lamps should not be used to sterilize hands or other areas of skin as
+                                            UV
+                                            radiation can cause skin irritation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#thermal" aria-expanded="false" aria-controls="thermal">
+                                        How effective are thermal scanners in detecting people infected with the new
+                                        coronavirus?
+                                    </button>
+                                </h2>
+                                <div id="thermal" class="accordion-collapse collapse" aria-labelledby="heading-7">
+                                    <div class="accordion-body">
+                                        <p>Thermal scanners are effective in detecting people who have developed a
+                                            fever
+                                            (i.e. have a higher than normal body temperature) because of infection
+                                            with
+                                            the new coronavirus.</p>
+                                        <p>However, they cannot detect people who are infected but are not yet sick
+                                            with
+                                            fever. This is because it takes between 2 and 10 days before people who
+                                            are
+                                            infected become sick and develop a fever.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#vaccines" aria-expanded="false" aria-controls="vaccines">
+                                        Do vaccines against pneumonia protect you against the new coronavirus?
+                                    </button>
+                                </h2>
+                                <div id="vaccines" class="accordion-collapse collapse" aria-labelledby="heading-8">
+                                    <div class="accordion-body">
+                                        <p>No. Vaccines against pneumonia, such as pneumococcal vaccine and
+                                            Haemophilus
+                                            influenza type B (Hib) vaccine, do not provide protection against the
+                                            new
+                                            coronavirus.</p>
+                                        <p>The virus is so new and different that it needs its own vaccine.
+                                            Researchers
+                                            are trying to develop a vaccine against 2019-nCoV, and WHO is supporting
+                                            their efforts.</p>
+                                        <p>Although these vaccines are not effective against 2019-nCoV, vaccination
+                                            against respiratory illnesses is highly recommended to protect your
+                                            health.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of FAQ -->
+
+    <!-- start of the news  -->
+    <div class="container-fluid pb-5" id="News">
+        <div class="container outer my-5 py-5">
+            <div class="row text-center mt-5">
+                <p class="start">RECENT FROM BLOG</p>
+                <h2>LATEST UPDATE</h2>
+            </div>
+            <div class="container news mt-5 pt-4 ">
+                <div class="row">
+                    <div class="col">
+                        <div class="size card text-center d-flex flex-column justify-content-center align-items-center">
+                            <img src="imgs/blog-a.jpg" alt="quarantine">
+                            <div class="card-body">
+                                <h5>Caring for someone at home</h5>
+                                <p>Most people who get sick with COVID-19 will have only mild illness and should
+                                    recover
+                                    at home. Care at home can help stop the spread of COVID-19</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="size card text-center d-flex flex-column justify-content-center align-items-center">
+                            <img src="imgs/blog-b.jpg" alt="keep-safe">
+                            <div class="card-body">
+                                <h5>15 ways to keep safe and healthy</h5>
+                                <p>Most people who get sick with COVID-19 will have only mild illness
+                                    and should recover at home. Care at home can help stop the spread of COVID-19
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="size card text-center d-flex flex-column justify-content-center align-items-center">
+                            <img src="imgs/blog-c.jpg" alt="sick">
+                            <div class="card-body">
+                                <h5>15 ways to keep safe and healthy</h5>
+                                <p>If you are sick with COVID-19 or think you might have it, follow the steps below
+                                    to
+                                    help protect other people in your home and community</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of the news  -->
+
+    <!-- start of the footer  -->
+    <div class="container-fluid footer pt-5">
+        <div class="container outer upper my-4">
+            <div class="row">
+                <h3 class="logo d-flex align-items-center"><a href="#"></a>C <img
+                        src="imgs/coronavirus-g2dbff4f62_1920.png" alt=""></span>VID<span>19</span></h3>
+                <p>This website is for health information and advice about coronavirus (COVID-19), how to prevent
+                    and
+                    protect yourself from disease.</p>
+                <p>Learn about the government response to coronavirus on GOV.UK.</p>
+            </div>
+            <div class="row social-media mt-3 ">
+                <div class="col facebook"><a href="#">Find Us On Facebook</a></div>
+                <div class="col twitter"><a href="#">Find Us On Twitter</a></div>
+                <div class="col instagram"><a href="#">Find Us On Instagram</a></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h6>QUICK LINK</h6>
+                        </li>
+                        <li><a href="">Symptoms</a></li>
+                        <li><a href="">Prevention</a></li>
+                        <li><a href="">Protect Youself</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">About Corona</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h6>HELPFULL LINK</h6>
+                        </li>
+                        <li><a href="">Healthcare Professionals</a></li>
+                        <li><a href="">Healthcare Facilities</a></li>
+                        <li><a href="">Older Adults & Medical Conditions</a></li>
+                        <li><a href="">Repare your Family</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>
+                            <h6>IMPORTANT LINK</h6>
+                        </li>
+                        <li><a href="">WHO Website</a></li>
+                        <li><a href="">CDC Website</a></li>
+                        <li><a href="">NHS Website</a></li>
+                        <li><a href="">Harvard Health</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container lower outer">
+            <div class="row">
+                <div class="col">
+                    <p>&copy; All Rigths Is For Eng.Mahmoud Khaled</p>
+                </div>
+                <div class="col text-center d-flex justify-content-end">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="row">
+                <p>Disclaimer: We hope you find the information presented on this website useful. This website is
+                    for
+                    general information and raise awareness of (2019-nCoV) only.
+                    All the information based on WHO, NHS and CDC website. Information on our website is meant for
+                    awareness, if you have any doubt please verify from respective site.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end of the footer  -->
+
+
+
+
+
+    <!-- bootstrap script  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery  -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Main Script  -->
+    <script src="assets/js/final.js"></script>
+    <!-- font awesome -->
+    <script src="assets/js/all.min.js"></script>
+</body>
+
+
+</html>
